@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:import url="../layout/app.jsp">
     <c:param name="content">
-        <h1>タスク一覧</h1>
+        <h2>タスク一覧</h2>
         <ul>
             <c:forEach var="task" items="${tasks}">
                 <li>
