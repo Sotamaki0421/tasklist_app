@@ -31,6 +31,6 @@
                 </c:choose>
             </c:forEach>
         </div>
-        <p><a href="<c:url value='/new' />">新規メッセージの投稿</a></p>
+        <p><a href="<c:url value='/new' />">新規タスクの投稿</a></p>
     </c:param>
 </c:import>
